@@ -1,11 +1,9 @@
-.bg-nav{
-    background-color: antiquewhite;
-    width: 100%;
-}
-.log-out{
-    padding: 10px;
-    width: 100px;
-    margin-left: 50px;
-    background-color: transparent;
-    color: wheat; 
-}
+.navbar {
+  height: 10vh;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=Header.css.map */
