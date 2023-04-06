@@ -1,9 +1,27 @@
 .navbar{
     height: 10vh;
     width: 100%;
-    background: #333;
+    background: #6155B4;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+    &-links{
+        ul{
+            display: flex;
+            list-style: none;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            margin: 0px 5px;
+            padding: 10px;
+            font-size: 20px;
+            transition: all 0.7s ease;
+
+            &:hover{
+                color: #f3b542;
+            }
+        }
+    }
 }
