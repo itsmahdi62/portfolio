@@ -6,14 +6,20 @@ import { motion } from "framer-motion"
 const Home = () => {
     return ( <div className="home">
         <div className="home-intro">
+                <motion.div animate={{x:100}}
+                transition={{ ease: "easeOut" , duration : 2}}>
             <div className="home-intro-heading">
                 <h1>Hi , I am Mahdi</h1>
                 <h1>React.js Developer</h1>
                 <button>Veiw my work</button>
             </div>
+                </motion.div>
+            <motion.div animate={{x:-50}}
+                transition={{ ease: "easeOut" , duration : 2}}>
             <div className="home-intro-image">
                 <img src={image} alt="#" className="my-img"/>
             </div>
+            </motion.div>
         </div>
         <div className="home-specialization">
                 <h2>SPECIALIZATION IN</h2>
