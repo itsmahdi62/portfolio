@@ -2,7 +2,7 @@ import image from "../../src/asset/1680812300773.jpg"
 import "../App.scss"
 import {BsEyeFill, BsCamera , BsLaptop, BsFillCameraVideoFill} from 'react-icons/bs'; 
 import { motion } from "framer-motion"
-
+import { Link } from "react-router-dom";
 const Home = () => {
     return ( <div className="home">
         <div className="home-intro">
@@ -11,7 +11,7 @@ const Home = () => {
             <div className="home-intro-heading">
                 <h1>Hi , I am Mahdi</h1>
                 <h1>React.js Developer</h1>
-                <button>Veiw my work</button>
+                <Link to='/projects'><button>Veiw my work</button></Link>
             </div>
                 </motion.div>
             <motion.div animate={{x:-50}}
